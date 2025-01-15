@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 0 1rem;
+}
+
+/* Header Section */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Main Section */
+main {
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.bucket-list {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.bucket-list h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #4CAF50;
+}
+
+/* Styled List */
+.bucket-list ul {
+  list-style: none;
+}
+
+.bucket-list li {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.bucket-list li:last-child {
+  border-bottom: none;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+/* Hover Effects */
+.bucket-list li:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .bucket-list {
+    padding: 1rem;
+  }
+
+  .bucket-list h2 {
+    font-size: 1.5rem;
+  }
+
+  .bucket-list li {
+    font-size: 1rem;
+  }
+}
